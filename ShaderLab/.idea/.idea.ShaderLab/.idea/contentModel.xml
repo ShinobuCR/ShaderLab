@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_ShaderLab.-1651028806.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="ABInfo.cs" t="Include" />
+          <e p="AssetBundleEditor.cs" t="Include" />
+          <e p="AssetBundleManager.cs" t="Include" />
+          <e p="CreateAssetBundle.cs" t="Include" />
+          <e p="Noise" t="Include">
+            <e p="GeneratorNoise.cs" t="Include" />
+          </e>
+          <e p="ShaderTemplateCreate.cs" t="Include" />
+        </e>
+        <e p="PostProcessing" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Attributes" t="Include">
+              <e p="PostProcessingModelEditorAttribute.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="AmbientOcclusionModelEditor.cs" t="Include" />
+              <e p="AntialiasingModelEditor.cs" t="Include" />
+              <e p="BloomModelEditor.cs" t="Include" />
+              <e p="BuiltinDebugViewsEditor.cs" t="Include" />
+              <e p="ChromaticAberrationEditor.cs" t="Include" />
+              <e p="ColorGradingModelEditor.cs" t="Include" />
+              <e p="DefaultPostFxModelEditor.cs" t="Include" />
+              <e p="DepthOfFieldModelEditor.cs" t="Include" />
+              <e p="DitheringModelEditor.cs" t="Include" />
+              <e p="EyeAdaptationModelEditor.cs" t="Include" />
+              <e p="FogModelEditor.cs" t="Include" />
+              <e p="GrainModelEditor.cs" t="Include" />
+              <e p="MotionBlurModelEditor.cs" t="Include" />
+              <e p="ScreenSpaceReflectionModelEditor.cs" t="Include" />
+              <e p="UserLutModelEditor.cs" t="Include" />
+              <e p="VignetteModelEditor.cs" t="Include" />
+            </e>
+            <e p="Monitors" t="Include">
+              <e p="HistogramMonitor.cs" t="Include" />
+              <e p="ParadeMonitor.cs" t="Include" />
+              <e p="VectorscopeMonitor.cs" t="Include" />
+              <e p="WaveformMonitor.cs" t="Include" />
+            </e>
+            <e p="PostProcessingBehaviourEditor.cs" t="Include" />
+            <e p="PostProcessingFactory.cs" t="Include" />
+            <e p="PostProcessingInspector.cs" t="Include" />
+            <e p="PostProcessingModelEditor.cs" t="Include" />
+            <e p="PostProcessingMonitor.cs" t="Include" />
+            <e p="PropertyDrawers" t="Include">
+              <e p="GetSetDrawer.cs" t="Include" />
+              <e p="MinDrawer.cs" t="Include" />
+              <e p="TrackballGroupDrawer.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="CurveEditor.cs" t="Include" />
+              <e p="EditorGUIHelper.cs" t="Include" />
+              <e p="EditorResources.cs" t="Include" />
+              <e p="FxStyles.cs" t="Include" />
+              <e p="ReflectionUtils.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor Resources" t="Include">
+            <e p="Monitors" t="Include">
+              <e p="HistogramCompute.compute" t="Include" />
+              <e p="HistogramRender.shader" t="Include" />
+              <e p="ParadeRender.shader" t="Include" />
+              <e p="VectorscopeCompute.compute" t="Include" />
+              <e p="VectorscopeRender.shader" t="Include" />
+              <e p="WaveformCompute.compute" t="Include" />
+              <e p="WaveformRender.shader" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CurveBackground.shader" t="Include" />
+              <e p="Trackball.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Bluenoise64" t="Include">
+              <e p="COPYING.txt" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="ACES.cginc" t="Include" />
+              <e p="AmbientOcclusion.cginc" t="Include" />
+              <e p="AmbientOcclusion.shader" t="Include" />
+              <e p="Blit.shader" t="Include" />
+              <e p="Bloom.cginc" t="Include" />
+              <e p="Bloom.shader" t="Include" />
+              <e p="BuiltinDebugViews.shader" t="Include" />
+              <e p="ColorGrading.cginc" t="Include" />
+              <e p="Common.cginc" t="Include" />
+              <e p="DepthOfField.cginc" t="Include" />
+              <e p="DepthOfField.shader" t="Include" />
+              <e p="DiskKernels.cginc" t="Include" />
+              <e p="EyeAdaptation.cginc" t="Include" />
+              <e p="EyeAdaptation.shader" t="Include" />
+              <e p="EyeHistogram.compute" t="Include" />
+              <e p="Fog.shader" t="Include" />
+              <e p="FXAA.shader" t="Include" />
+              <e p="FXAA3.cginc" t="Include" />
+              <e p="GrainGen.shader" t="Include" />
+              <e p="LutGen.shader" t="Include" />
+              <e p="MotionBlur.cginc" t="Include" />
+              <e p="MotionBlur.shader" t="Include" />
+              <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+              <e p="ScreenSpaceReflection.shader" t="Include" />
+              <e p="TAA.cginc" t="Include" />
+              <e p="TAA.shader" t="Include" />
+              <e p="Tonemapping.cginc" t="Include" />
+              <e p="Uber.shader" t="Include" />
+              <e p="UberSecondPass.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Attributes" t="Include">
+              <e p="GetSetAttribute.cs" t="Include" />
+              <e p="MinAttribute.cs" t="Include" />
+              <e p="TrackballAttribute.cs" t="Include" />
+              <e p="TrackballGroupAttribute.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="AmbientOcclusionComponent.cs" t="Include" />
+              <e p="BloomComponent.cs" t="Include" />
+              <e p="BuiltinDebugViewsComponent.cs" t="Include" />
+              <e p="ChromaticAberrationComponent.cs" t="Include" />
+              <e p="ColorGradingComponent.cs" t="Include" />
+              <e p="DepthOfFieldComponent.cs" t="Include" />
+              <e p="DitheringComponent.cs" t="Include" />
+              <e p="EyeAdaptationComponent.cs" t="Include" />
+              <e p="FogComponent.cs" t="Include" />
+              <e p="FxaaComponent.cs" t="Include" />
+              <e p="GrainComponent.cs" t="Include" />
+              <e p="MotionBlurComponent.cs" t="Include" />
+              <e p="ScreenSpaceReflectionComponent.cs" t="Include" />
+              <e p="TaaComponent.cs" t="Include" />
+              <e p="UserLutComponent.cs" t="Include" />
+              <e p="VignetteComponent.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="AmbientOcclusionModel.cs" t="Include" />
+              <e p="AntialiasingModel.cs" t="Include" />
+              <e p="BloomModel.cs" t="Include" />
+              <e p="BuiltinDebugViewsModel.cs" t="Include" />
+              <e p="ChromaticAberrationModel.cs" t="Include" />
+              <e p="ColorGradingModel.cs" t="Include" />
+              <e p="DepthOfFieldModel.cs" t="Include" />
+              <e p="DitheringModel.cs" t="Include" />
+              <e p="EyeAdaptationModel.cs" t="Include" />
+              <e p="FogModel.cs" t="Include" />
+              <e p="GrainModel.cs" t="Include" />
+              <e p="MotionBlurModel.cs" t="Include" />
+              <e p="ScreenSpaceReflectionModel.cs" t="Include" />
+              <e p="UserLutModel.cs" t="Include" />
+              <e p="VignetteModel.cs" t="Include" />
+            </e>
+            <e p="PostProcessingBehaviour.cs" t="Include" />
+            <e p="PostProcessingComponent.cs" t="Include" />
+            <e p="PostProcessingContext.cs" t="Include" />
+            <e p="PostProcessingModel.cs" t="Include" />
+            <e p="PostProcessingProfile.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="ColorGradingCurve.cs" t="Include" />
+              <e p="GraphicsUtils.cs" t="Include" />
+              <e p="MaterialFactory.cs" t="Include" />
+              <e p="RenderTextureFactory.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="CustomMotionTexture" t="Include">
+              <e p="ExampleWheelController.cs" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="CustomMotionVectorTexture.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Templates" t="Include">
+            <e p="Shader" t="Include">
+              <e p="ShaderToyTemplate.shader" t="Include" />
+              <e p="UnityShaderTemplate.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ColorsUI.cs" t="Include" />
+          <e p="GrayUI.cs" t="Include" />
+          <e p="NoiseEditor" t="Include">
+            <e p="Noise.cs" t="Include" />
+          </e>
+          <e p="PrefabPractice.cs" t="Include" />
+          <e p="ScriptableObject" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="MyScriptableObject.cs" t="Include" />
+          </e>
+          <e p="SetGray.cs" t="Include" />
+          <e p="ShaderIfTest.cs" t="Include" />
+          <e p="Test_1.cs" t="Include" />
+          <e p="TextureTest.cs" t="Include" />
+        </e>
+        <e p="Shader" t="Include">
+          <e p="LightShader" t="Include">
+            <e p="LightMap.shader" t="Include" />
+          </e>
+          <e p="ShaderToy" t="Include">
+            <e p="Antiasling" t="Include">
+              <e p="Anti.shader" t="Include" />
+            </e>
+            <e p="Basic" t="Include">
+              <e p="BasicLineAndCircle.shader" t="Include" />
+            </e>
+            <e p="JumpHeart.shader" t="Include" />
+            <e p="ShaderToyHelper.cs" t="Include" />
+          </e>
+          <e p="UnityShader" t="Include">
+            <e p="Antialiasing" t="Include">
+              <e p="Antialiasing.shader" t="Include" />
+            </e>
+            <e p="Basic" t="Include">
+              <e p="AlphaBothSide.shader" t="Include" />
+              <e p="AlphaBothSide_IN_AD2.shader" t="Include" />
+              <e p="Blur.shader" t="Include" />
+              <e p="BlurBox.shader" t="Include" />
+              <e p="cgwell_dissolution_blend.shader" t="Include" />
+              <e p="CirCleHole.shader" t="Include" />
+              <e p="Emboss.shader" t="Include" />
+              <e p="Glow.shader" t="Include" />
+              <e p="Glow_Outer.shader" t="Include" />
+              <e p="Gray.shader" t="Include" />
+              <e p="HDR.shader" t="Include" />
+              <e p="masac.shader" t="Include" />
+              <e p="OuterGlow.shader" t="Include" />
+              <e p="Pencil.shader" t="Include" />
+              <e p="Rotate.shader" t="Include" />
+              <e p="SectorWrap.shader" t="Include" />
+              <e p="ShaderPropertyTest.shader" t="Include" />
+              <e p="ShaderVariant.shader" t="Include" />
+              <e p="Sharpen.shader" t="Include" />
+              <e p="Shutter.shader" t="Include" />
+              <e p="WaterColor.shader" t="Include" />
+            </e>
+            <e p="Cartoon" t="Include">
+              <e p="Cartoon.shader" t="Include" />
+            </e>
+            <e p="Dynamic Weather" t="Include">
+              <e p="DynamicWeather.shader" t="Include" />
+            </e>
+            <e p="Edge" t="Include">
+              <e p="GeometryOutLine.shader" t="Include" />
+              <e p="SilhouetteOnly.shader" t="Include" />
+              <e p="SurfaceAngleOutLine.shader" t="Include" />
+            </e>
+            <e p="GodRay" t="Include">
+              <e p="BlinkGodRay.shader" t="Include" />
+              <e p="GodRay.shader" t="Include" />
+            </e>
+            <e p="Noise" t="Include">
+              <e p="Perlin.shader" t="Include" />
+              <e p="pingpu.shader" t="Include" />
+              <e p="Simplex.shader" t="Include" />
+              <e p="Value.shader" t="Include" />
+            </e>
+            <e p="ProcedureTexture" t="Include">
+              <e p="Chapter7-SingleTexture.shader" t="Include" />
+              <e p="Default_1.shader" t="Include" />
+              <e p="ProcedureTextureGeneration.cs" t="Include" />
+            </e>
+            <e p="WaterColor" t="Include">
+              <e p="WaterColor.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ShaderIndependentGlow" t="Include">
+          <e p="Demo" t="Include">
+            <e p="MovementAnimsetProLite" t="Include">
+              <e p="readme.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="STW_InputWalk.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="SIG_demo_FollowAgent.cs" t="Include" />
+              <e p="SIG_demo_GUI.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Resources" t="Include">
+            <e p="ShaderIndependentGlow.shader" t="Include" />
+            <e p="ShaderIndependentGlow_ortho.shader" t="Include" />
+            <e p="ShaderIndependentGlow_RT.shader" t="Include" />
+            <e p="ShaderIndependentGlow_RT_ortho.shader" t="Include" />
+            <e p="SIG_compose.shader" t="Include" />
+            <e p="SIG_FastBlur.shader" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SIG_GlowMaskEditor.cs" t="Include" />
+              <e p="SIG_GlowMaskGlobalEditor.cs" t="Include" />
+            </e>
+            <e p="ShaderIndependentGlow.cs" t="Include" />
+            <e p="SIG_GlowMask_For_Renderer.cs" t="Include" />
+            <e p="SIG_GlowMask_Global.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Toon" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CopyMaterialParameter.cs" t="Include" />
+            <e p="RemoveUnusedMaterialProperties.cs" t="Include" />
+            <e p="RemoveUnusedShaderKeywordsFromUTS2Material.cs" t="Include" />
+            <e p="UTS2GUI.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="Tess" t="Include">
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_OutlineObject_Tess.shader" t="Include" />
+              <e p="Toon_OutlineObject_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_Light.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Transparent_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader" t="Include" />
+              <e p="UCTS_DoubleShadeWithFeather_tess.cginc" t="Include" />
+              <e p="UCTS_Outline_Tess.cginc" t="Include" />
+              <e p="UCTS_ShadingGradeMap_tess.cginc" t="Include" />
+              <e p="UCTS_ShadowCaster_Tess.cginc" t="Include" />
+              <e p="UCTS_Tess.cginc" t="Include" />
+            </e>
+            <e p="Toon_DoubleShadeWithFeather.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_Clipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_Clipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader" t="Include" />
+            <e p="Toon_OutlineObject.shader" t="Include" />
+            <e p="Toon_OutlineObject_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_Mobile.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Transparent.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_StencilMask.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_Transparent.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_Transparent_StencilOut.shader" t="Include" />
+            <e p="UCTS_DoubleShadeWithFeather.cginc" t="Include" />
+            <e p="UCTS_Outline.cginc" t="Include" />
+            <e p="UCTS_ShadingGradeMap.cginc" t="Include" />
+            <e p="UCTS_ShadowCaster.cginc" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ShaderLab.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

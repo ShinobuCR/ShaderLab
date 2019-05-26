@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 1675108866
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets.prefabs.gameobject.cube.prefab.ab
+      Dependencies:
+        Dependency_0: assets.prefabs.gameobject.new material.mat.ab
+    Info_1:
+      Name: assets.prefabs.gameobject.new material.mat.ab
+      Dependencies: {}
+    Info_2:
+      Name: assets.prefabs.gameobject.cylinder.prefab.ab
+      Dependencies:
+        Dependency_0: assets.prefabs.gameobject.new material.mat.ab

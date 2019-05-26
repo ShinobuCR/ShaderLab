@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 4283751340
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc053155161a1e96e951e20ee2401450
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43917c7e82ed3ae0a408b3ea37ec80f7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/GameObject/Cube.prefab
+Dependencies:
+- /Users/dhcd/ABTest/AssetBundles/assets.prefabs.gameobject.new material.mat.ab

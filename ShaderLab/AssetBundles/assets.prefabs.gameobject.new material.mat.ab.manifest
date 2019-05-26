@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1247424432
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e9676fdb166831ed06eeca91c4b55011
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 51a16e16d5113854a16091e54ae5bb0d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/GameObject/New Material.mat
+Dependencies: []
