@@ -34,7 +34,6 @@ Shader "GeometryOutLine"{
          fixed4 frag(v2f i):COLOR
          {
             fixed3 col = tex2D(_MainTex, i.uv).rgb; 
-
             fixed4 fragColor;
             fragColor.rgb = col;
             fragColor.a = 1.0;

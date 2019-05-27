@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2431c2e4-8be5-4741-acbc-c1beb605bcc7" name="Default Changelist" comment="" />
+    <list default="true" id="2431c2e4-8be5-4741-acbc-c1beb605bcc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/B3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/B3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader/Standard_gles.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader/Standard_gles.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader/Standard_gles3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader/Standard_gles3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Face.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Face.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Face.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Face.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Hair.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Hair.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Legacy Shaders_Transparent_Cutout_Soft Edge Unlit_gles.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Legacy Shaders_Transparent_Cutout_Soft Edge Unlit_gles.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Legacy Shaders_Transparent_Cutout_Soft Edge Unlit_gles3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Legacy Shaders_Transparent_Cutout_Soft Edge Unlit_gles3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Standard_gles.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Standard_gles.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Standard_gles3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Standard_gles3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/miHoYo_Particles_Liquid_00_gles.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/miHoYo_Particles_Liquid_00_gles.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/miHoYo_Particles_Liquid_00_gles3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/Mesh/Shader/miHoYo_Particles_Liquid_00_gles3.shader.meta" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,52 +45,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/ProcedureTextureGeneration.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="155" column="73" selection-start-line="155" selection-start-column="73" selection-end-line="155" selection-end-column="73" />
-              <folding>
-                <marker date="1558278088671" expanded="true" signature="203:7070" ph="{...}" />
-                <marker date="1558278088671" expanded="false" signature="248:1248" ph="Material properties" />
-                <marker date="1558278088671" expanded="true" signature="361:511" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="418:505" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="615:763" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="667:757" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="850:988" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="897:982" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1084:1232" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1140:1226" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1323:1639" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1359:1605" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1472:1546" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1667:1708" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1744:1934" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1780:1928" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="1940:2016" ph="/// 生成圆程序纹理 ... " />
-                <marker date="1558278088671" expanded="true" signature="2060:3422" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="2394:3348" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="2455:3338" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="2619:3267" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="2685:3249" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="3428:3507" ph="/// 生成可平铺的噪声纹理 ... " />
-                <marker date="1558278088671" expanded="true" signature="3631:4619" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="3871:4300" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="3932:4290" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="4693:5019" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="5141:5451" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="5581:6366" ph="{...}" />
-                <marker date="1558278088671" expanded="true" signature="6368:7068" ph="/* public static void Texture2DToPNG(Texture2D input,int width,string path, string name) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NoiseEditor/Noise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7170">
+            <state relative-caret-position="6990">
               <caret line="478" column="24" selection-start-line="478" selection-start-column="24" selection-end-line="478" selection-end-column="24" />
               <folding>
+                <marker date="1555834189620" expanded="true" signature="46:20257" ph="{...}" />
                 <marker date="1555834189620" expanded="true" signature="95:475" ph="{...}" />
                 <marker date="1555834189620" expanded="true" signature="525:1747" ph="{...}" />
                 <marker date="1555834189620" expanded="true" signature="1780:2827" ph="{...}" />
@@ -121,9 +112,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextureTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="645">
               <caret line="50" column="13" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="13" />
               <folding>
+                <marker date="1558276344563" expanded="false" signature="6:95" ph="..." />
                 <marker date="1558276344563" expanded="true" signature="137:2473" ph="{...}" />
                 <marker date="1558276344563" expanded="true" signature="209:411" ph="{...}" />
                 <marker date="1558276344563" expanded="true" signature="238:405" ph="/* Material mat=new Material(Shader.Find(&quot;Transparent/Diffuse&quot;)); ... */" />
@@ -141,9 +133,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="360">
               <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
+                <marker date="1558278108931" expanded="false" signature="6:111" ph="..." />
                 <marker date="1558278108931" expanded="true" signature="155:1925" ph="{...}" />
                 <marker date="1558278108931" expanded="true" signature="426:628" ph="{...}" />
                 <marker date="1558278108931" expanded="true" signature="654:667" ph="{...}" />
@@ -154,9 +147,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/崩3/Material/Face.shader">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1558884203425" expanded="true" signature="91:4043" ph="{...}" />
+                <marker date="1558884203425" expanded="true" signature="108:728" ph="{...}" />
+                <marker date="1558884203425" expanded="true" signature="747:4041" ph="{...}" />
+                <marker date="1558884203425" expanded="true" signature="813:4035" ph="{...}" />
+                <marker date="1558884203425" expanded="true" signature="863:4020" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <marker date="1558863585963" expanded="true" signature="0:277" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
+                <marker date="1558863585963" expanded="true" signature="323:7661" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="337:772" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="784:7632" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="839:1584" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="893:1575" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="1594:4608" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="1649:4599" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="4619:7629" ph="{...}" />
+                <marker date="1558863585963" expanded="true" signature="4695:7620" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <marker date="1558882107871" expanded="true" signature="0:166" ph="/* Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)' ... */" />
+                <marker date="1558882107871" expanded="true" signature="192:2699" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="209:336" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="351:2697" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="362:1083" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="423:1072" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="1098:2695" ph="{...}" />
+                <marker date="1558882107871" expanded="true" signature="1158:2684" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -165,6 +208,7 @@
             <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
+                <marker date="1558413416248" expanded="true" signature="53:454" ph="{...}" />
                 <marker date="1558413416248" expanded="true" signature="175:254" ph="{...}" />
                 <marker date="1558413416248" expanded="true" signature="380:452" ph="{...}" />
               </folding>
@@ -175,9 +219,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SetGray.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="105">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
+                <marker date="1558416960024" expanded="false" signature="6:100" ph="..." />
                 <marker date="1558416960024" expanded="true" signature="139:973" ph="{...}" />
                 <marker date="1558416960024" expanded="true" signature="190:971" ph="{...}" />
                 <marker date="1558416960024" expanded="true" signature="265:643" ph="{...}" />
@@ -195,6 +240,7 @@
             <state>
               <caret column="8" selection-start-column="8" selection-end-column="22" />
               <folding>
+                <marker date="1558277114880" expanded="true" signature="24:929" ph="{...}" />
                 <marker date="1558277114880" expanded="true" signature="41:97" ph="{...}" />
                 <marker date="1558277114880" expanded="true" signature="116:927" ph="{...}" />
                 <marker date="1558277114880" expanded="true" signature="182:921" ph="{...}" />
@@ -215,20 +261,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetGray.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/ShaderToy/ShaderToyHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/MyScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseEditor/Noise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87F35BAE-0D00-44EE-81A6-D75BA47715A8/f6/1ceef241/RenderTexture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/GodRay/BlinkGodRay.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/ShaderTemplateCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test_1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/Default_1.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/ProcedureTextureGeneration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/GodRay/GodRay.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/MyScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87F35BAE-0D00-44EE-81A6-D75BA47715A8/f6/1ceef241/RenderTexture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/崩3/Material/Face.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseEditor/Noise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/GodRay/GodRay.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/NewSurfaceShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetGray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ShaderTemplateCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/ShaderToy/ShaderToyHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -246,12 +296,15 @@
         <option value="$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test_1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetGray.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -319,6 +372,20 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Shader" type="1045f7f1:UnityExplorerNode" />
               <item name="UnityShader" type="1045f7f1:UnityExplorerNode" />
+              <item name="Cartoon" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Shader" type="1045f7f1:UnityExplorerNode" />
+              <item name="UnityShader" type="1045f7f1:UnityExplorerNode" />
+              <item name="Edge" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Shader" type="1045f7f1:UnityExplorerNode" />
+              <item name="UnityShader" type="1045f7f1:UnityExplorerNode" />
               <item name="GodRay" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -337,6 +404,29 @@
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
+              <item name="ExportEntities" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
+              <item name="Material" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mesh" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
@@ -345,8 +435,8 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,11 +491,13 @@
       <workItem from="1558413239980" duration="423000" />
       <workItem from="1558617170895" duration="129000" />
       <workItem from="1558842715300" duration="6000" />
+      <workItem from="1558858597762" duration="31000" />
+      <workItem from="1558858776470" duration="785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10447000" />
+    <option name="totallyTimeSpent" value="11263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,9 +509,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.2741148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -567,9 +659,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/Default.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/ProcedureTextureGeneration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
+        <state relative-caret-position="1425">
           <caret line="155" column="73" selection-start-line="155" selection-start-column="73" selection-end-line="155" selection-end-column="73" />
           <folding>
+            <marker date="1558278088671" expanded="false" signature="6:126" ph="..." />
             <marker date="1558278088671" expanded="true" signature="203:7070" ph="{...}" />
             <marker date="1558278088671" expanded="false" signature="248:1248" ph="Material properties" />
             <marker date="1558278088671" expanded="true" signature="361:511" ph="{...}" />
@@ -606,9 +699,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NoiseEditor/Noise.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7170">
+        <state relative-caret-position="6990">
           <caret line="478" column="24" selection-start-line="478" selection-start-column="24" selection-end-line="478" selection-end-column="24" />
           <folding>
+            <marker date="1555834189620" expanded="true" signature="46:20257" ph="{...}" />
             <marker date="1555834189620" expanded="true" signature="95:475" ph="{...}" />
             <marker date="1555834189620" expanded="true" signature="525:1747" ph="{...}" />
             <marker date="1555834189620" expanded="true" signature="1780:2827" ph="{...}" />
@@ -668,9 +762,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextureTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="645">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="13" />
           <folding>
+            <marker date="1558276344563" expanded="false" signature="6:95" ph="..." />
             <marker date="1558276344563" expanded="true" signature="137:2473" ph="{...}" />
             <marker date="1558276344563" expanded="true" signature="209:411" ph="{...}" />
             <marker date="1558276344563" expanded="true" signature="238:405" ph="/* Material mat=new Material(Shader.Find(&quot;Transparent/Diffuse&quot;)); ... */" />
@@ -684,11 +779,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <marker date="1558278108931" expanded="false" signature="6:111" ph="..." />
+            <marker date="1558278108931" expanded="true" signature="155:1925" ph="{...}" />
+            <marker date="1558278108931" expanded="true" signature="426:628" ph="{...}" />
+            <marker date="1558278108931" expanded="true" signature="654:667" ph="{...}" />
+            <marker date="1558278108931" expanded="true" signature="693:1923" ph="{...}" />
+            <marker date="1558278108931" expanded="true" signature="1753:1916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/崩3/Material/Face.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558884203425" expanded="true" signature="91:4043" ph="{...}" />
+            <marker date="1558884203425" expanded="true" signature="108:728" ph="{...}" />
+            <marker date="1558884203425" expanded="true" signature="747:4041" ph="{...}" />
+            <marker date="1558884203425" expanded="true" signature="813:4035" ph="{...}" />
+            <marker date="1558884203425" expanded="true" signature="863:4020" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test_1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
+            <marker date="1558413416248" expanded="true" signature="53:454" ph="{...}" />
             <marker date="1558413416248" expanded="true" signature="175:254" ph="{...}" />
             <marker date="1558413416248" expanded="true" signature="380:452" ph="{...}" />
           </folding>
@@ -697,9 +821,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SetGray.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
+            <marker date="1558416960024" expanded="false" signature="6:100" ph="..." />
             <marker date="1558416960024" expanded="true" signature="139:973" ph="{...}" />
             <marker date="1558416960024" expanded="true" signature="190:971" ph="{...}" />
             <marker date="1558416960024" expanded="true" signature="265:643" ph="{...}" />
@@ -715,6 +840,7 @@
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="22" />
           <folding>
+            <marker date="1558277114880" expanded="true" signature="24:929" ph="{...}" />
             <marker date="1558277114880" expanded="true" signature="41:97" ph="{...}" />
             <marker date="1558277114880" expanded="true" signature="116:927" ph="{...}" />
             <marker date="1558277114880" expanded="true" signature="182:921" ph="{...}" />
@@ -723,22 +849,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/Noise/GeneratorNoise.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/NewSurfaceShader.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding>
-            <marker date="1558278108931" expanded="true" signature="155:1925" ph="{...}" />
-            <marker date="1558278108931" expanded="true" signature="426:628" ph="{...}" />
-            <marker date="1558278108931" expanded="true" signature="654:667" ph="{...}" />
-            <marker date="1558278108931" expanded="true" signature="693:1923" ph="{...}" />
-            <marker date="1558278108931" expanded="true" signature="1753:1916" ph="{...}" />
+            <marker date="1558859424337" expanded="true" signature="33:1653" ph="{...}" />
+            <marker date="1558859424337" expanded="true" signature="54:258" ph="{...}" />
+            <marker date="1558859424337" expanded="true" signature="277:1628" ph="{...}" />
+            <marker date="1558859424337" expanded="true" signature="352:1617" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/崩3/Material/Face.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/崩3/Mesh/Shader/Legacy Shaders_Transparent_Cutout_Soft Edge Unlit_gles.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/崩3/ExportEntities/Shader/Standard_gles.shader">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Cartoon/Cartoon.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1558863585963" expanded="true" signature="0:277" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
+            <marker date="1558863585963" expanded="true" signature="323:7661" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="337:772" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="784:7632" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="839:1584" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="893:1575" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="1594:4608" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="1649:4599" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="4619:7629" ph="{...}" />
+            <marker date="1558863585963" expanded="true" signature="4695:7620" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <marker date="1558882107871" expanded="true" signature="0:166" ph="/* Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)' ... */" />
+            <marker date="1558882107871" expanded="true" signature="192:2699" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="209:336" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="351:2697" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="362:1083" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="423:1072" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="1098:2695" ph="{...}" />
+            <marker date="1558882107871" expanded="true" signature="1158:2684" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

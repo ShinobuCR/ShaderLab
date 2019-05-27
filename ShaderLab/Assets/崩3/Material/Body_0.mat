@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Body_0
-  m_Shader: {fileID: 4800000, guid: a02cfe73a7a4b4dc889cbdef87c0c79f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8e9179b8a703b40589848d9544ffbf26, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,8 +39,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2fdd2b8beb9ec4647b5f2233f5e5f2ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 76a269104780c49709ac5f8091f4e458, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -66,7 +70,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Outline: 0.011
+    - _OutLine: 0
+    - _Outline: 0
     - _Parallax: 0.02
     - _Shininess: 40
     - _SmoothnessTextureChannel: 0
@@ -74,6 +79,7 @@ Material:
     - _SpecularSegment: 0.459
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Z: 1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
