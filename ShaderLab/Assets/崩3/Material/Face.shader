@@ -5,15 +5,10 @@ Shader "Custom/Face" {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _LightMap("Light Map",2D) = "white" {}
         _lightColor("Light Color",Vector) = (1,1,1)
-        ambinetStrenth("ambinetStrenth",float) = 0.1
-        _LightSpecColor("_LightSpecColor",vector) = (1,1,1)
-        __SpecuMulti("_SpecuMulti",float) = 16
-
-        _halmbert("halmbert",float) = 0.5
-        FirstShadowMultiColor("FirstShadowMultiColor",range(0,0.2)) = 0.1
-        SecondShadowMultiColor("SecondShadowMultiColor",range(0,0.2)) = 0.1
-        _FirstShadow("_FirstShadow",range(0,0.2)) = 0.3
-        _SecondShaow("_SecondShaow",range(0,0.1)) = 0.3
+        
+        _DiffuseColor("_DiffuseColor",Color) = (1,1,1)
+        _Shiness("_Shiness",int) = 32
+        specularStrength("specularStrength",float) = 1
     }
     SubShader
     {
@@ -37,14 +32,10 @@ Shader "Custom/Face" {
             float4 _MainTex_ST;
             sampler2D _LightMap;
             float4 _LightMap_ST;
-            float3 _lightColor;
-            float _LightSpecColor;
-            float __SpecuMulti;
-            float _halmbert;
-            float FirstShadowMultiColor;
-            float SecondShadowMultiColor;
-            float _FirstShadow;
-            float _SecondShaow;
+            
+            float3 _DiffuseColor;
+            int _Shiness;
+            float specularStrength;
            
             struct v2f
             {
@@ -52,6 +43,7 @@ Shader "Custom/Face" {
                 float4  uv : TEXCOORD0;
                 float3 worldNormal : NORMAL;
                 float3 viewDir : TEXCOORD1;
+                float3 lightDir : TEXCOORD2;
             };
             
             v2f vert (appdata_full v)
@@ -60,7 +52,19 @@ Shader "Custom/Face" {
                 o.pos = UnityObjectToClipPos(v.vertex);
                 //计算法线和视角向量
                 o.worldNormal = mul(v.normal,(float3x3)unity_WorldToObject);
-                o.viewDir = normalize(_WorldSpaceCameraPos.xyz - mul(v.vertex, (float3x3)unity_WorldToObject).xyz);
+                // o.viewDir = normalize(_WorldSpaceCameraPos.xyz - mul(v.vertex, (float3x3)unity_WorldToObject).xyz);
+                // o.viewDir = normalize(_WorldSpaceCameraPos.xyz);
+                o.viewDir = ObjSpaceViewDir(v.vertex);
+
+                // o.lightDir = normalize(_WorldSpaceLightPos0.xyz - mul(v.vertex, (float3x3)unity_WorldToObject).xyz);
+                // o.lightDir = normalize(_WorldSpaceLightPos0.xyz);
+                o.lightDir = ObjSpaceLightDir(v.vertex);
+                
+                float3 binormal=cross(v.normal,v.tangent);
+                //用顶点的Tangent,Binormal,Normal组合成选择矩阵
+                float3x3 rotation=float3x3(v.tangent.xyz,binormal,v.normal);
+                o.lightDir = mul(rotation,o.lightDir);
+                o.viewDir = mul(rotation,o.viewDir);
 
                 //采样光照贴图和颜色贴图
                 o.uv.xy = TRANSFORM_TEX(v.texcoord,_MainTex); 
@@ -70,37 +74,35 @@ Shader "Custom/Face" {
 
             fixed4 frag (v2f i) : COLOR
             {
-                //lightmap
-                float4 lightCol = tex2D(_LightMap,i.uv.zw);
                 float3 mainColor = tex2D(_MainTex,i.uv.xy).rgb;
                 
-                //高光
-                float3 normal = normalize(i.worldNormal);
-
-                float lightDir = normalize(_WorldSpaceLightPos0.xyz);
+                //lightmap
+                float3 normalTex = (tex2D(_LightMap, i.uv.zw).xyz);
+                float3 normal =normalize(2 * normalTex - 1);
                 float3 viewDir = i.viewDir;
+                float3 lightDir = i.lightDir;
+
+                //冯氏高光
+                float reflectDir = reflect(-lightDir, normal);
+
+                //bling-phone
                 float3 halfwayDir = normalize(viewDir + lightDir);
 
-                float shinPow = pow(max(dot(normal, halfwayDir), 0.0), 16.0);
-                float3 spec = shinPow + lightCol.z > 1.0 ? __SpecuMulti * lightCol.x  * _LightSpecColor : 1;
+                float spec = pow(max(dot(normal, halfwayDir), 0.0), _Shiness);
+
+                // float spec = pow(max(dot(viewDir, reflectDir), 0.0), _Shiness);
+                // spec = specularStrength * spec * _DiffuseColor;
 
                 //漫反射
-                float3 diffuse = float3(0,0,0);
-                float diffuseMask = lightCol.y * mainColor.x;
                 
-                if (diffuseMask > 0.1)
-                {
-                    float firstMask = diffuseMask > 0.5 ? diffuseMask*1.2-0.1:diffuseMask*1.25-0.125;
-                    bool isLight = (firstMask * _halmbert)*0.5 > _FirstShadow;
-                    diffuse = isLight ? 1.0:FirstShadowMultiColor;
-                }
-                else
-                {
-                    bool isFirst = (diffuseMask + _halmbert)*0.5>_SecondShaow;
-                    diffuse = isFirst ?  FirstShadowMultiColor : SecondShadowMultiColor;
-                }
+                float3 diffuse = float3(0,0,0);
+
                 fixed4 fragColor;
-                fragColor.rgb = (diffuse + spec) * mainColor;
+                diffuse = 0.5 * dot(normal,lightDir) + 0.5;
+
+                fragColor.rgb = ( diffuse + spec) * mainColor;
+
+
                 fragColor.a = 1;
                 return fragColor;
             }

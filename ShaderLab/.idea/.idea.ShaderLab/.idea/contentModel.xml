@@ -321,6 +321,10 @@
         <e p="Scripts" t="Include">
           <e p="ColorsUI.cs" t="Include" />
           <e p="GrayUI.cs" t="Include" />
+          <e p="Light" t="Include">
+            <e p="Lightmap.cs" t="Include" />
+            <e p="PrefabLightmapData.cs" t="Include" />
+          </e>
           <e p="NoiseEditor" t="Include">
             <e p="Noise.cs" t="Include" />
           </e>
@@ -338,7 +342,12 @@
           <e p="LightShader" t="Include">
             <e p="LightMap.shader" t="Include" />
           </e>
-          <e p="NewSurfaceShader.shader" t="Include" />
+          <e p="MapShader" t="Include">
+            <e p="BumpMap.shader" t="Include" />
+            <e p="NormalMap.shader" t="Include" />
+            <e p="ParallMap.shader" t="Include" />
+            <e p="ShadowMap.shader" t="Include" />
+          </e>
           <e p="ShaderToy" t="Include">
             <e p="Antiasling" t="Include">
               <e p="Anti.shader" t="Include" />
