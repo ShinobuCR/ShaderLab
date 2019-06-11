@@ -17,137 +17,6 @@
           </e>
           <e p="ShaderTemplateCreate.cs" t="Include" />
         </e>
-        <e p="Enviro - Dynamic Enviroment" t="Include">
-          <e p="Resources" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="Core" t="Include">
-                <e p="EnviroFogCore.cginc" t="Include" />
-                <e p="EnviroNoiseCore.cginc" t="Include" />
-                <e p="EnviroVolumeLightCore.cginc" t="Include" />
-              </e>
-              <e p="Effects" t="Include">
-                <e p="EnviroBilateralBlur.shader" t="Include" />
-                <e p="EnviroClearLightShafts.shader" t="Include" />
-                <e p="EnviroFogRendering.shader" t="Include" />
-                <e p="EnviroFogRenderingSimple.shader" t="Include" />
-                <e p="EnviroLightShafts.shader" t="Include" />
-                <e p="EnviroVolumeLight.shader" t="Include" />
-              </e>
-              <e p="EnviroBlit.shader" t="Include" />
-              <e p="EnviroFlatCloudMap.shader" t="Include" />
-              <e p="EnviroMoonShader.shader" t="Include" />
-              <e p="EnviroMoonShaderCustom.shader" t="Include" />
-              <e p="EnviroRaymarchClouds.shader" t="Include" />
-              <e p="EnviroShadowCookie.shader" t="Include" />
-              <e p="EnviroSkybox.shader" t="Include" />
-              <e p="EnviroSkyboxFlatClouds.shader" t="Include" />
-              <e p="EnviroWeatherMap.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Samples" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="DemoUI.cs" t="Include" />
-              <e p="EventTest.cs" t="Include" />
-              <e p="FPSController.cs" t="Include" />
-              <e p="NetworkFPSController.cs" t="Include" />
-              <e p="SampleHUDFPS.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="AQUAS Integration" t="Include">
-              <e p="AQUAS Integration.txt" t="Include" />
-              <e p="EnviroAquasIntegration.cs" t="Include" />
-            </e>
-            <e p="CTS Integration" t="Include">
-              <e p="CTS Integration Quickstart.txt" t="Include" />
-              <e p="EnviroCTSIntegration.cs" t="Include" />
-            </e>
-            <e p="Editor" t="Include">
-              <e p="EnviroInteriorEditor.cs" t="Include" />
-              <e p="EnviroSkyEditor.cs" t="Include" />
-              <e p="EnviroVolumeLightEditor.cs" t="Include" />
-              <e p="EnviroWeatherPresetEditor.cs" t="Include" />
-              <e p="EnviroZoneEditor.cs" t="Include" />
-            </e>
-            <e p="Effects" t="Include">
-              <e p="EnviroEffects.cs" t="Include" />
-              <e p="EnviroFog.cs" t="Include" />
-              <e p="EnviroLightShafts.cs" t="Include" />
-            </e>
-            <e p="EnviroEvents.cs" t="Include" />
-            <e p="EnviroProfile.cs" t="Include" />
-            <e p="EnviroSky.cs" t="Include" />
-            <e p="EnviroSkyRendering.cs" t="Include" />
-            <e p="EnviroVegetationInstance.cs" t="Include" />
-            <e p="EnviroVolumeLight.cs" t="Include" />
-            <e p="EnviroWeatherPrefab.cs" t="Include" />
-            <e p="EnviroWeatherPreset.cs" t="Include" />
-            <e p="EnviroZone.cs" t="Include" />
-            <e p="FogVolume3 Integration" t="Include">
-              <e p="Fog Volume 3 Integration.txt" t="Include" />
-            </e>
-            <e p="Gaia Integration" t="Include">
-              <e p="EnviroWithGAIA.cs" t="Include" />
-            </e>
-            <e p="Lux Integration" t="Include">
-              <e p="Lux Integration.txt" t="Include" />
-            </e>
-            <e p="MegaSplat Integration" t="Include">
-              <e p="MegaSplat Integration.txt" t="Include" />
-            </e>
-            <e p="MicroSplat Integration" t="Include">
-              <e p="MicroSplat Integration.txt" t="Include" />
-            </e>
-            <e p="NetworkIntegration" t="Include">
-              <e p="EnviroUNetPlayer.cs" t="Include" />
-              <e p="EnviroUNetServer.cs" t="Include" />
-            </e>
-            <e p="Playmaker Integration" t="Include">
-              <e p="Playmaker Integration.txt" t="Include" />
-            </e>
-            <e p="RTP Integration" t="Include">
-              <e p="RTP Integration.txt" t="Include" />
-            </e>
-            <e p="UBER Integration" t="Include">
-              <e p="UBER Integration.txt" t="Include" />
-            </e>
-            <e p="Utility" t="Include">
-              <e p="EnviroAdditionalCamera.cs" t="Include" />
-              <e p="EnviroAudioMixerSupport.cs" t="Include" />
-              <e p="EnviroAudioSource.cs" t="Include" />
-              <e p="EnviroCloudsReflection.cs" t="Include" />
-              <e p="EnviroDayNightSwitch.cs" t="Include" />
-              <e p="EnviroInterior.cs" t="Include" />
-              <e p="EnviroLightning.cs" t="Include" />
-              <e p="EnviroMeshSeasons.cs" t="Include" />
-              <e p="EnviroReflections.cs" t="Include" />
-              <e p="EnviroSeasonObjectSwitcher.cs" t="Include" />
-              <e p="EnviroSetSystemTime.cs" t="Include" />
-              <e p="EnviroStartInSeason.cs" t="Include" />
-              <e p="EnviroTerrainSeasons.cs" t="Include" />
-              <e p="EnviroTrigger.cs" t="Include" />
-            </e>
-            <e p="WAPI Integration" t="Include">
-              <e p="Editor" t="Include">
-                <e p="EnviroWAPIEditor.cs" t="Include" />
-              </e>
-              <e p="EnviroWorldAPIIntegration.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Shaders" t="Include">
-            <e p="Particle" t="Include">
-              <e p="EnviroParticlesAdditive.shader" t="Include" />
-              <e p="EnviroParticlesAlphaBlend.shader" t="Include" />
-              <e p="EnviroParticlesLightning.shader" t="Include" />
-              <e p="EnviroWeatherParticles.shader" t="Include" />
-            </e>
-            <e p="Transparent" t="Include">
-              <e p="EnviroTransparent.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Update Notes.txt" t="Include" />
-          <e p="version.txt" t="Include" />
-        </e>
         <e p="PostProcessing" t="Include">
           <e p="Editor" t="Include">
             <e p="Attributes" t="Include">
@@ -339,6 +208,9 @@
           <e p="TextureTest.cs" t="Include" />
         </e>
         <e p="Shader" t="Include">
+          <e p="GeometryShader" t="Include">
+            <e p="GeometryShaderTest.shader" t="Include" />
+          </e>
           <e p="LightShader" t="Include">
             <e p="LightMap.shader" t="Include" />
           </e>

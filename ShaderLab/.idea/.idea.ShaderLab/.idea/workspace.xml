@@ -2,24 +2,426 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2431c2e4-8be5-4741-acbc-c1beb605bcc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShaderLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/B3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/B3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Light.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Light.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/NewSurfaceShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/NewSurfaceShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Mesh/Body.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Mesh/Body.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C0_Face_Lightmap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C0_Face_Lightmap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C0_Hair_Lightmap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C0_Hair_Lightmap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C3_04_01_Texture_Body_Lightmap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C3_04_01_Texture_Body_Lightmap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body-1.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Body_0.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Face.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Face.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Face.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Face.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/崩3/Material/Hair.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/崩3/Material/Hair.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/EnviroMoon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/EnviroMoon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainDrop.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainDrop.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainSplash.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroRainSplash.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroSnow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/EnviroSnow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Glow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Strikes.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Materials/Weather/Lightning_Strikes.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky VR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky VR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/EnviroSky.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/SFX Holder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/SFX Holder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/Satellites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/Satellites/Moon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/Satellites/Moon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Enviro_Lightning_Strike.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Enviro_Lightning_Strike.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Heave Snow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Heave Snow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Light Rain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Light Rain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Light Snow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Light Snow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Medium Rain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Medium Rain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Near Snow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Near Snow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Rain VR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Rain VR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Snow VR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Snow VR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Storm Rain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Prefab/WeatherEffects/Storm Rain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Bright Nights.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Bright Nights.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Dark Nights.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Dark Nights.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Default.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Default.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Sunset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile Sunset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Enviro Profile VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/PostEffect Profile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/PostEffect Profile/Enviro Post FX.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/PostEffect Profile/Enviro Post FX.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Clear Sky.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Clear Sky.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Cloudy 4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Foggy.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Foggy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Clouds VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Clouds VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Rain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Rain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Snow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Heavy Snow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Less Clouds VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Less Clouds VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Light Rain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Light Rain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Light Snow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Light Snow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Rain VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Rain VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Snow VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Snow VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Storm VR.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Storm VR.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Storm.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Profiles/Weather/Storm.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/NoiseVolume.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/NoiseVolume.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroFogCore.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroFogCore.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroNoiseCore.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroNoiseCore.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroVolumeLightCore.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Core/EnviroVolumeLightCore.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroBilateralBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroBilateralBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroClearLightShafts.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroClearLightShafts.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroFogRendering.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroFogRendering.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroFogRenderingSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroFogRenderingSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroLightShafts.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroLightShafts.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroVolumeLight.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/Effects/EnviroVolumeLight.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroBlit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroBlit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroFlatCloudMap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroFlatCloudMap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroMoonShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroMoonShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroMoonShaderCustom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroMoonShaderCustom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroRaymarchClouds.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroRaymarchClouds.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroShadowCookie.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroShadowCookie.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroSkybox.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroSkybox.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroSkyboxFlatClouds.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroSkyboxFlatClouds.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroWeatherMap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/Shaders/EnviroWeatherMap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base_low.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_base_low.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_detail_high.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_detail_high.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_detail_low.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/enviro_clouds_detail_low.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/tex_enviro_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/tex_enviro_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/tex_enviro_curl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Resources/tex_enviro_curl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Ambient.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Ambient/sfx_enviro_ambient_day.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Ambient/sfx_enviro_ambient_day.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Ambient/sfx_enviro_ambient_night.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Ambient/sfx_enviro_ambient_night.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Misc/tree_fall_down.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Misc/tree_fall_down.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Thunder/SFX_Thunder_8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_blizzard.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_blizzard.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_heavyrain.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_heavyrain.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_heavyrain2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_heavyrain2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_liightrain.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_liightrain.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_storm.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_storm.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_wind_rain.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_enviro_wind_rain.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_envirolightrain2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/SFX/Weather/sfx_envirolightrain2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Materials/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Materials/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/DemoController.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/DemoController.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/NetworkPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/NetworkPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/SampleHouse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/SampleHouse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/UI/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Prefabs/UI/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Sample Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Sample Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - Sample Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - Sample Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - UNet Sample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - UNet Sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - VR Sample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scene/Enviro - VR Sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/DemoUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/DemoUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/EventTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/EventTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/FPSController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/FPSController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/NetworkFPSController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/NetworkFPSController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/SampleHUDFPS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Scripts/SampleHUDFPS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/CliffAlbedoSpecular.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/CliffAlbedoSpecular.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/GrassHillAlbedo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/GrassHillAlbedo.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/GrassRockyAlbedo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/GrassRockyAlbedo.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/SandAlbedo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/Terrain Textures/SandAlbedo.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/grassBillboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Samples/Textures/grassBillboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/AQUAS Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/AQUAS Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/EnviroAquasIntegration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/EnviroAquasIntegration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/Enviro_Aquas_1_4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/Enviro_Aquas_1_4.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/Enviro_Aquas_1_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/AQUAS Integration/Enviro_Aquas_1_5.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/CTS Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/CTS Integration/CTS Integration Quickstart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/CTS Integration/CTS Integration Quickstart.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/CTS Integration/EnviroCTSIntegration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/CTS Integration/EnviroCTSIntegration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroInteriorEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroInteriorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroSkyEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroSkyEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroVolumeLightEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroVolumeLightEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroWeatherPresetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroWeatherPresetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroZoneEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Editor/EnviroZoneEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroFog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroFog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroLightShafts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Effects/EnviroLightShafts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroProfile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroProfile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroSky.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroSky.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroSkyRendering.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroSkyRendering.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVegetationInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVegetationInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVolumeLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroVolumeLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPrefab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPrefab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPreset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroWeatherPreset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/EnviroZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/FogVolume3 Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/FogVolume3 Integration/Fog Volume 3 Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/FogVolume3 Integration/Fog Volume 3 Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/FogVolume3 Integration/FogVolume3 Integration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/FogVolume3 Integration/FogVolume3 Integration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Gaia Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Gaia Integration/EnviroWithGAIA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Gaia Integration/EnviroWithGAIA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Lux Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Lux Integration/EnviroLUXIntegration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Lux Integration/EnviroLUXIntegration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Lux Integration/Lux Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Lux Integration/Lux Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MegaSplat Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MegaSplat Integration/EnviroMegaSplatIntegration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MegaSplat Integration/EnviroMegaSplatIntegration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MegaSplat Integration/MegaSplat Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MegaSplat Integration/MegaSplat Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MicroSplat Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MicroSplat Integration/EnviroMicroSplatIntegration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MicroSplat Integration/EnviroMicroSplatIntegration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MicroSplat Integration/MicroSplat Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/MicroSplat Integration/MicroSplat Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/EnviroUNetPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/EnviroUNetPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/EnviroUNetServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/EnviroUNetServer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/PhotonNetworkIntegration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/NetworkIntegration/PhotonNetworkIntegration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Pegasus Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Pegasus Integration/Pegasus Integration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Pegasus Integration/Pegasus Integration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Playmaker Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Playmaker Integration/Playmaker Integration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Playmaker Integration/Playmaker Integration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Playmaker Integration/Playmaker Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Playmaker Integration/Playmaker Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/RTP Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/RTP Integration/EnviroRTP.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/RTP Integration/EnviroRTP.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/RTP Integration/RTP Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/RTP Integration/RTP Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/UBER Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/UBER Integration/EnviroUBERIntegration.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/UBER Integration/EnviroUBERIntegration.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/UBER Integration/UBER Integration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/UBER Integration/UBER Integration.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAdditionalCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAdditionalCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAudioMixerSupport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAudioMixerSupport.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAudioSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroAudioSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroCloudsReflection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroCloudsReflection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroDayNightSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroDayNightSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroInterior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroInterior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroLightning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroLightning.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroMeshSeasons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroMeshSeasons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroReflections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroReflections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroSeasonObjectSwitcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroSeasonObjectSwitcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroSetSystemTime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroSetSystemTime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroStartInSeason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroStartInSeason.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroTerrainSeasons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroTerrainSeasons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/Utility/EnviroTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration/Editor/EnviroWAPIEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration/Editor/EnviroWAPIEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration/EnviroWorldAPIIntegration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Scripts/WAPI Integration/EnviroWorldAPIIntegration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Grass/EnviroSnowOnTerrainGrassReplacement.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Grass/EnviroSnowOnTerrainGrassReplacement.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAdditive.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAdditive.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAlphaBlend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesAlphaBlend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesLightning.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroParticlesLightning.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroWeatherParticles.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Particle/EnviroWeatherParticles.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Transparent.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Transparent/EnviroTransparent.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Shaders/Transparent/EnviroTransparent.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/cube_enviro_galaxy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/cube_enviro_galaxy.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/cube_enviro_stars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/cube_enviro_stars.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_dust_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_dust_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_lightning_glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_lightning_glow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_lightning_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_lightning_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rainRipple_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rainRipple_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rainSplash_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rainSplash_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rain_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_rain_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_snowOld_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_snowOld_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_snow_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_snow_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_spot_cookie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/enviro_spot_cookie.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_cirrus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_moon.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Textures/tex_enviro_noise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Update Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/Update Notes.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enviro - Dynamic Enviroment/version.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C3_04_01_Texture_Body_Lightmap 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/崩3/ExportEntities/Texture2D/Avatar_Bronya_C3_04_01_Texture_Body_Lightmap 1.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +456,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/PrefabLightmapData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
+            <state relative-caret-position="2430">
               <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
               <folding>
                 <marker date="1559444099000" expanded="false" signature="23:112" ph="..." />
@@ -95,7 +497,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/LightMap.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="90">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <marker date="1559460231010" expanded="true" signature="57:370" ph="{...}" />
@@ -106,18 +508,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/MapShader/ParallMap.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1559463728119" expanded="true" signature="1:26" ph="/* ParallaxMap ... */" />
-                <marker date="1559463728119" expanded="true" signature="55:2542" ph="{...}" />
-                <marker date="1559463728119" expanded="true" signature="74:293" ph="{...}" />
-                <marker date="1559463728119" expanded="true" signature="317:2488" ph="{...}" />
-                <marker date="1559463728119" expanded="true" signature="328:2483" ph="{...}" />
-                <marker date="1559463728119" expanded="true" signature="391:2474" ph="{...}" />
+                <marker date="1559463728191" expanded="true" signature="85:110" ph="/* ParallaxMap ... */" />
+                <marker date="1559463728191" expanded="true" signature="139:2625" ph="{...}" />
+                <marker date="1559463728191" expanded="true" signature="158:377" ph="{...}" />
+                <marker date="1559463728191" expanded="true" signature="401:2571" ph="{...}" />
+                <marker date="1559463728191" expanded="true" signature="412:2566" ph="{...}" />
+                <marker date="1559463728191" expanded="true" signature="475:2557" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/GeometryShader/GeometryShaderTest.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <marker date="1560263803824" expanded="true" signature="47:1385" ph="{...}" />
+                <marker date="1560263803824" expanded="true" signature="69:220" ph="{...}" />
+                <marker date="1560263803824" expanded="true" signature="241:1382" ph="{...}" />
+                <marker date="1560263803824" expanded="true" signature="264:1376" ph="{...}" />
+                <marker date="1560263803824" expanded="true" signature="459:1361" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,6 +552,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/GeometryShader/GeometryShaderTest.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/GodRay/BlinkGodRay.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Light/LightMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test_1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -178,6 +597,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Light/Editor/LightMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Light/LightMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Shader/MapShader/ParallMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/GeometryShader/GeometryShaderTest.shader" />
       </list>
     </option>
   </component>
@@ -187,84 +607,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="Noise" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="NoiseEditor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="ScriptableObject" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
-              <item name="ExportEntities" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
-              <item name="Material" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="崩3" type="1045f7f1:UnityExplorerNode" />
-              <item name="Mesh" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Packages" type="4e2708dd:PackagesRoot" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -321,12 +667,13 @@
       <workItem from="1558858597762" duration="31000" />
       <workItem from="1558858776470" duration="785000" />
       <workItem from="1559311794896" duration="14000" />
-      <workItem from="1559443975125" duration="2343000" />
+      <workItem from="1559443975125" duration="2476000" />
+      <workItem from="1560263798489" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13620000" />
+    <option name="totallyTimeSpent" value="13841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,13 +1060,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shader/ShadowShader/ShadowMap.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="11" selection-start-line="35" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/ShadowShader/ShadowMap.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/ProcedureTexture/Default_1.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -733,6 +1074,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/Editor/LightMap.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Shader/UnityShader/Edge/GeometryOutLine.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -750,16 +1092,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/Editor/LightMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/PrefabLightmapData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
+        <state relative-caret-position="2430">
           <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
           <folding>
             <marker date="1559444099000" expanded="false" signature="23:112" ph="..." />
@@ -798,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Light/LightMap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="90">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <marker date="1559460231010" expanded="true" signature="57:370" ph="{...}" />
@@ -810,15 +1145,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/MapShader/ParallMap.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1559463728119" expanded="true" signature="1:26" ph="/* ParallaxMap ... */" />
-            <marker date="1559463728119" expanded="true" signature="55:2542" ph="{...}" />
-            <marker date="1559463728119" expanded="true" signature="74:293" ph="{...}" />
-            <marker date="1559463728119" expanded="true" signature="317:2488" ph="{...}" />
-            <marker date="1559463728119" expanded="true" signature="328:2483" ph="{...}" />
-            <marker date="1559463728119" expanded="true" signature="391:2474" ph="{...}" />
+            <marker date="1559463728191" expanded="true" signature="85:110" ph="/* ParallaxMap ... */" />
+            <marker date="1559463728191" expanded="true" signature="139:2625" ph="{...}" />
+            <marker date="1559463728191" expanded="true" signature="158:377" ph="{...}" />
+            <marker date="1559463728191" expanded="true" signature="401:2571" ph="{...}" />
+            <marker date="1559463728191" expanded="true" signature="412:2566" ph="{...}" />
+            <marker date="1559463728191" expanded="true" signature="475:2557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/GeometryShader/GeometryShaderTest.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <marker date="1560263803824" expanded="true" signature="47:1385" ph="{...}" />
+            <marker date="1560263803824" expanded="true" signature="69:220" ph="{...}" />
+            <marker date="1560263803824" expanded="true" signature="241:1382" ph="{...}" />
+            <marker date="1560263803824" expanded="true" signature="264:1376" ph="{...}" />
+            <marker date="1560263803824" expanded="true" signature="459:1361" ph="{...}" />
           </folding>
         </state>
       </provider>
