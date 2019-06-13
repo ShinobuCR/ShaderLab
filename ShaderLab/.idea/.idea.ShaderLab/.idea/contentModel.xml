@@ -208,6 +208,17 @@
           <e p="TextureTest.cs" t="Include" />
         </e>
         <e p="Shader" t="Include">
+          <e p="CommandBufferExample" t="Include">
+            <e p="CommandBuffer - Example1" t="Include">
+              <e p="CommandBuffer_Example1.cs" t="Include" />
+            </e>
+            <e p="ComputerShader - Example2" t="Include">
+              <e p="Blur.shader" t="Include" />
+              <e p="CommandBuffer_Example2.cs" t="Include" />
+              <e p="PlayerReplace.shader" t="Include" />
+              <e p="Standard(OrderedDither).shader" t="Include" />
+            </e>
+          </e>
           <e p="GeometryShader" t="Include">
             <e p="GeometryShaderTest.shader" t="Include" />
           </e>
@@ -286,37 +297,6 @@
             <e p="WaterColor" t="Include">
               <e p="WaterColor.shader" t="Include" />
             </e>
-          </e>
-        </e>
-        <e p="ShaderIndependentGlow" t="Include">
-          <e p="Demo" t="Include">
-            <e p="MovementAnimsetProLite" t="Include">
-              <e p="readme.txt" t="Include" />
-              <e p="Scripts" t="Include">
-                <e p="STW_InputWalk.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="SIG_demo_FollowAgent.cs" t="Include" />
-              <e p="SIG_demo_GUI.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Resources" t="Include">
-            <e p="ShaderIndependentGlow.shader" t="Include" />
-            <e p="ShaderIndependentGlow_ortho.shader" t="Include" />
-            <e p="ShaderIndependentGlow_RT.shader" t="Include" />
-            <e p="ShaderIndependentGlow_RT_ortho.shader" t="Include" />
-            <e p="SIG_compose.shader" t="Include" />
-            <e p="SIG_FastBlur.shader" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="SIG_GlowMaskEditor.cs" t="Include" />
-              <e p="SIG_GlowMaskGlobalEditor.cs" t="Include" />
-            </e>
-            <e p="ShaderIndependentGlow.cs" t="Include" />
-            <e p="SIG_GlowMask_For_Renderer.cs" t="Include" />
-            <e p="SIG_GlowMask_Global.cs" t="Include" />
           </e>
         </e>
         <e p="Toon" t="Include">
@@ -449,6 +429,17 @@
             <e p="UCTS_Outline.cginc" t="Include" />
             <e p="UCTS_ShadingGradeMap.cginc" t="Include" />
             <e p="UCTS_ShadowCaster.cginc" t="Include" />
+          </e>
+        </e>
+        <e p="UCLAGameLab" t="Include">
+          <e p="Wireframe" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="UCLA GameLab Cutout Wireframe.shader" t="Include" />
+              <e p="UCLA GameLab Double-Sided Cutout Wireframe.shader" t="Include" />
+              <e p="UCLA GameLab Double-Sided Wireframe.shader" t="Include" />
+              <e p="UCLA GameLab Wireframe Functions.cginc" t="Include" />
+              <e p="UCLA GameLab Wireframe.shader" t="Include" />
+            </e>
           </e>
         </e>
         <e p="崩3" t="Include">
