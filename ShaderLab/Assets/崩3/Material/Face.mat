@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Face
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 6546e3a5aa09448e9925b7e818c428b5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -70,16 +70,22 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LightArea: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OutLine: 0
     - _Parallax: 0.02
+    - _SecondShadow: 0
     - _SecondShaow: 0.3
     - _Shiness: 32
+    - _Shininess: 16
     - _SmoothnessTextureChannel: 0
+    - _SpecMulti: 16
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Z: 1
     - _ZWrite: 1
     - __SpecuMulti: 16
     - _halmbert: 0.5
@@ -89,6 +95,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 0.7058824, g: 0.87058824, b: 0.34509805, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FirstShadowMultColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
     - _FristshadowColor: {r: 0.039215688, g: 0.07058824, b: 0.1764706, a: 1}
     - _LightSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondShadowMultColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
     - _lightColor: {r: 1, g: 1, b: 1, a: 1}

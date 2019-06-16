@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
-        m_Texture: {fileID: 2800000, guid: 04fcf45c346cd4659bbd2d7862424873, type: 3}
+        m_Texture: {fileID: 2800000, guid: 04d7e87739b8b41ff9221e3b8396f194, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 76a269104780c49709ac5f8091f4e458, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8ef45b21434fe4d32be274133a99358d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -67,14 +67,17 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LightArea: 0.1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OutLine: 0
     - _Outline: 0
     - _Parallax: 0.02
+    - _SecondShadow: 0
     - _Shininess: 40
     - _SmoothnessTextureChannel: 0
+    - _SpecMulti: 16
     - _SpecularHighlights: 1
     - _SpecularSegment: 0.459
     - _SrcBlend: 1
@@ -86,5 +89,9 @@ Material:
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseSegment: {r: 0.1, g: 0.3, b: 0.6, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FirstShadowMultColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0.7490196, g: 0, b: 0, a: 1}
+    - _SecondShadowMultColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}

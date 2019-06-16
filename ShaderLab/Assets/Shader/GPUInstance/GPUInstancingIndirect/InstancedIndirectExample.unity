@@ -305,7 +305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1245793670
 Light:
   m_ObjectHideFlags: 0
@@ -387,8 +387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f8ec55e72f462458e09232944f33c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instanceCount: 1000000
-  instanceMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  instanceCount: 100000
+  instanceMesh: {fileID: 4300000, guid: 9aa73240953d1419a91b58a6f0a79cd1, type: 3}
   instanceMaterial: {fileID: 2100000, guid: 0a0f2521dca606b47b5a8ece5d77aadf, type: 2}
 --- !u!4 &1690212781
 Transform:
